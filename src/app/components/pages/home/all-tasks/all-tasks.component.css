@@ -1,0 +1,36 @@
+@font-face{
+  src: url(../fonts/segoeuithis.ttf);
+  font-family: Segoe UI;
+}
+
+@font-face{
+  src: url(../fonts/tahoma.ttf);
+  font-family: Tahoma;
+}
+
+@font-face{
+  src: url(../fonts/GENEVA.ttf);
+  font-family: Geneva;
+}
+
+@font-face{
+  src: url(../fonts/VERDANAI.ttf);
+  font-family: Verdana;
+}
+
+.taskStyle{
+  font-family: Geneva, Segoe UI, Tahoma, Verdana, sans-serif;
+  padding-left: 15px; 
+  padding-top: 8px;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 5px;
+  height: 15px; /* Should be removed. Only for demonstration */
+}

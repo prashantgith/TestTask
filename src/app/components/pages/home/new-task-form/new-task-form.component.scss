@@ -1,0 +1,34 @@
+@font-face{
+    src: url(../fonts/segoeuithis.ttf);
+    font-family: Segoe UI;
+}
+
+@font-face{
+    src: url(../fonts/tahoma.ttf);
+    font-family: Tahoma;
+}
+
+@font-face{
+    src: url(../fonts/GENEVA.ttf);
+    font-family: Geneva;
+}
+
+@font-face{
+    src: url(../fonts/VERDANAI.ttf);
+    font-family: Verdana;
+}
+
+.appInputStyle{
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonStyle{
+    font-family: Tahoma, Segoe UI, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin: 10px;
+}
+
+

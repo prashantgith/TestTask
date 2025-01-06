@@ -1,0 +1,20 @@
+<!-- <div class="row" > -->
+
+<div style="background-color: rgb(238, 238, 238); width: 100%; height: fit-content;">
+<div style="padding: 10px; background-color:teal"><b><h3>All Tasks</h3></b></div>
+
+<!-- <ul> -->
+    <div style="padding-bottom: 8px;">
+       <div *ngFor="let task of taskList" class="taskStyle">
+           <app-checkbox [task] = "task"/><label (click) = "onTaskSelected(task)">{{ task._description }}</label>  
+       </div>
+    </div>
+<!-- </ul> -->
+
+</div>
+
+<!-- <div class="column" style="background-color: rgb(212, 212, 212);">
+<router-outlet></router-outlet>
+</div> -->
+
+<!-- </div> -->

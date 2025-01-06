@@ -1,0 +1,20 @@
+<div style="width: 100%; margin: 5px; "> 
+  <h1>Create a new task</h1>
+</div>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <app-input
+    class="appInputStyle"
+    [label]="'New Task'"
+    [id]="'new-task'"
+    [formControl]="form.controls.name"
+  />
+  
+
+  <div class="buttonStyle">
+    <button type="submit">Submit</button>
+    <button type="button" (click)="loadTasks()" style="margin-left: 10px;">Show All</button>
+  </div>
+
+</form>
+
+<!-- <router-outlet style="margin-top: 10%;"></router-outlet> -->

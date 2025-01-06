@@ -1,0 +1,26 @@
+@font-face{
+    src: url(../fonts/segoeuithis.ttf);
+    font-family: Segoe UI;
+}
+
+@font-face{
+    src: url(../fonts/tahoma.ttf);
+    font-family: Tahoma;
+}
+
+@font-face{
+    src: url(../fonts/GENEVA.ttf);
+    font-family: Geneva;
+}
+
+@font-face{
+    src: url(../fonts/VERDANAI.ttf);
+    font-family: Verdana;
+}
+
+.detailStyle{
+    font-family: Verdana, Segoe UI, Tahoma, Geneva, sans-serif;
+    padding-left: 15px;
+    padding-top: 8px; 
+    padding-bottom: 8px
+}

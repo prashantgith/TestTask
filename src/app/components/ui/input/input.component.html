@@ -1,0 +1,6 @@
+@if(label()) {
+<label [htmlFor]="id()">{{ label() }}</label>
+}
+<input type="text" [value]="value()" (input)="onInput($event)" [id]="id()" style="margin-top: 5px;"/>
+
+<span *ngIf="value().length < 4 && value().length > 0" style="margin-top: 2px; margin-left: 2px; color: brown;">Task should be at least 4 characters long.</span>
